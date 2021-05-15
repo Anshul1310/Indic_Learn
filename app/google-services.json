@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "713950518292",
+    "firebase_url": "https://indic-learno-default-rtdb.firebaseio.com",
+    "project_id": "indic-learno",
+    "storage_bucket": "indic-learno.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713950518292:android:563b0d72ef065acc1a1b01",
+        "android_client_info": {
+          "package_name": "com.anstudios.indiclearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713950518292-53b40r2t59d9mkndkc3vu0480v9mllfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC97wvXW_F3OyXR2ZAhdvQUQ9bGowKmdxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713950518292-53b40r2t59d9mkndkc3vu0480v9mllfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
