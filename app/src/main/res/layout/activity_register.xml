@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
     android:clickable="true"
     android:focusable="true"
     android:focusableInTouchMode="true">
@@ -80,7 +81,8 @@
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
             android:layout_weight="1"
-            app:cardBackgroundColor="#099885"
+            android:onClick="email_login"
+            app:cardBackgroundColor="#1DBF73"
             app:cardCornerRadius="4dp">
 
             <TextView
@@ -136,12 +138,12 @@
     <TextView
         android:id="@+id/textView11"
         android:layout_width="0dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="20dp"
-        android:textSize="16sp"
-        android:textColor="#404145"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/ptsans"
         android:text="By joining, we conclude that you are willing to learn Indic languages."
+        android:textColor="#404145"
+        android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
         app:layout_constraintHorizontal_bias="0.5"
